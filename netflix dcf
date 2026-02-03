@@ -1,0 +1,27 @@
+# Netflix, Inc. (NFLX) — Discounted Cash Flow Valuation
+
+This repository contains a full discounted cash flow (DCF) valuation model for Netflix, Inc., built using unlevered free cash flow to the firm (FCFF).
+
+## Overview
+The model forecasts operating performance over an explicit five-year period (2026–2030), with assumptions driven by revenue growth deceleration, operating margin expansion, capital intensity, and working capital dynamics. Cash flows are discounted using a WACC derived from CAPM-based cost of equity and observed capital structure.
+
+Terminal value is estimated using a perpetual growth approach, and valuation outputs are presented across base, bull, and bear cases.
+
+## Key Outputs
+- Enterprise Value, Equity Value, and Implied Share Price
+- FCFF build from EBIT to cash flow
+- Enterprise Value bridge (PV of FCFF + PV of Terminal Value)
+- Sensitivity analysis across WACC and terminal growth assumptions
+- Revenue and EBIT trajectory visualization
+
+## Key Assumptions (Base Case)
+- WACC: 10.65%
+- Terminal Growth Rate: 2.5%
+- Effective Tax Rate: 13%
+- Valuation methodology: FCFF-based DCF
+
+## Files
+- `Netflix_DCF.xlsx` — Fully linked Excel model with cover, model, statements, and outputs tabs
+
+## Notes
+This model is for educational and analytical purposes only and does not constitute investment advice.
